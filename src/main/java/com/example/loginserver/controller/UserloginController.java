@@ -22,13 +22,11 @@ public class UserloginController {
     }
     @PostMapping("/register")
     public Object register(@RequestBody UserloginReq req) {
-
         return userloginService.insert(req);
     }
 
     @PostMapping("/updateUserlogin")
     public Object updateUserlogin(@RequestBody UserloginReq req) {
-
         return userloginService.updateUserlogin(req);
     }
 
