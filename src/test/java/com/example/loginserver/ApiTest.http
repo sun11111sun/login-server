@@ -1,0 +1,24 @@
+POST http://localhost:8080/login/del
+Content-Type: application/json
+
+{ "id":""}
+
+###
+POST http://localhost:8080/login/updateUserlogin
+Content-Type: application/json
+
+{ "id":"", "loginName": "gh路iu一天", "password": "21523"}
+
+###
+POST http://localhost:8080/login/register
+Content-Type: application/json
+
+{  "loginName": "gh路iu一天", "password": "21523"}
+
+###
+
+###
+GET http://localhost:8080/login/show
+Accept: application/json
+
+###
